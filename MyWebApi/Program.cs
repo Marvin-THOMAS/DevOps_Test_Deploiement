@@ -25,7 +25,7 @@ namespace MyWebApi
 
 			_ = app.MapControllers();
 
-			_ = app.MapGet("/", () => "COUCOU !! On est pas sur le web nous ? :D");
+			_ = app.MapGet("/", () => "Antoine tu pue l'curry mais t'es beau quand meme <3");
 
 			app.Run();
 		}
